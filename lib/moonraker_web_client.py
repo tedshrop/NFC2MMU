@@ -14,13 +14,12 @@ class MoonrakerWebClient:
     def __init__(self, url: str):
         self.url = url
 
-    def set_spool_and_filament(self, spool: int, filament: int):
+    def set_spool_and_filament(self, spool: int, filament: int, gate: int):
         """Calls moonraker with the current spool & filament"""
 
         commands = {
             "commands": [
-                f"SET_ACTIVE_SPOOL ID={spool}",
-                f"SET_ACTIVE_FILAMENT ID={filament}",
+                f"MMU_GATE_MAP GATE={gate} SPOOLID={spool}",
             ]
         }
 
