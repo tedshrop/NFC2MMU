@@ -57,6 +57,7 @@ if not args:                                                        #if the file
 spoolman = SpoolmanClient(args["spoolman"]["spoolman-url"])         #set spoolman url from the config file
 moonraker = MoonrakerWebClient(args["moonraker"]["moonraker-url"])  #set moonraker url from the config file
 nfc_handler = NfcHandler(args["nfc"]["nfc-device"])                 #set the port that the reader is connected to.
+mmu_enable = args['mmu']
 
 
 app = Flask(__name__)                                               #create the web application
