@@ -8,7 +8,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
 ![GitHub Workflow Status](https://github.com/bofh69/nfc2klipper/actions/workflows/pylint.yml/badge.svg)
 
 
-# WORK IN PROGRESS. NOT WORKING YET BY ANY MEANS.
+# NFC2MMU
+
+## WORK IN PROGRESS. NOT WORKING YET BY ANY MEANS.
 
 Based on [nfc2klipper by bofh69](https://github.com/bofh69/nfc2klipper). Use that as it's working.
 
