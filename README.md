@@ -8,9 +8,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
 ![GitHub Workflow Status](https://github.com/bofh69/nfc2klipper/actions/workflows/pylint.yml/badge.svg)
 
 
-# nfc2klipper
+# nfc2mmu
 
-Set loaded spool &amp; filament in klipper from NFC/RFID tags.
+Based on [nfc2klipper by bofh69](https://github.com/bofh69/nfc2klipper)
+ * `Goal is to set spool ID in the gate map for Happy Hare automatically by reading NFC reader in the spool holder.`
+ * `Read existing AMS compatible spools, create an instance in Spoolman, and rewrite the tag with the new spool ID `
 
 ## Prepare for running nfc2klipper
 
