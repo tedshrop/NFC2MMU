@@ -8,9 +8,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
 ![GitHub Workflow Status](https://github.com/bofh69/nfc2klipper/actions/workflows/pylint.yml/badge.svg)
 
 
-# nfc2mmu
+# WORK IN PROGRESS. NOT WORKING YET BY ANY MEANS.
 
-Based on [nfc2klipper by bofh69](https://github.com/bofh69/nfc2klipper)
+Based on [nfc2klipper by bofh69](https://github.com/bofh69/nfc2klipper). Use that as it's working.
 
 GOALS:
  * `Set spool ID in the gate map for Happy Hare automatically by reading NFC reader in the spool holder.`
